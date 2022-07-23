@@ -26,6 +26,7 @@ class Test_Main():
         #Employee
         employee = Admin(self.driver)
         employee.get_employee()
+        #####################################
         #Add Items
-        add_tems = Admin(self.driver)
-        add_tems.add()
+        # add_tems = Admin(self.driver)
+        # add_tems.add()

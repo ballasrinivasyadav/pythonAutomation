@@ -1,5 +1,14 @@
 from selenium.webdriver.common.by import By
 
+# This is the first time,i am adding & changing the code
+# Which i have changed will be displayed on the GitHub
+# Actually, i am only changing the admin file rather than the other files.
+# Just now , I have push my code in favour your need changes , so kindly check & revert.
+# Okay guys, as per our discussion changed the code more reluctant & robust .
+# Further, any needs please ping me in teams.
+# Okay that's all for today.
+
+
 
 class Admin:
 
@@ -20,5 +29,6 @@ class Admin:
     def get_employee(self):
         return self.driver.find_element(*Admin.employee).send_keys("ananya dash")
 
-    def add(self):
-        return self.driver.find_element(*Admin.aDD).click()
+##########################################
+    # def add(self):
+    #     return self.driver.find_element(*Admin.aDD).click()
