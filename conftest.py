@@ -8,3 +8,4 @@ def setup(request):
     driver.get("https://opensource-demo.orangehrmlive.com/")
     driver.maximize_window()
     request.cls.driver = driver
+
